@@ -16,39 +16,36 @@
         android:textStyle="bold"
         android:layout_marginBottom="32dp"/>
 
-    <!-- TextView para ingresar el primer lado -->
-    <TextView
+    <!-- EditText para ingresar el primer lado -->
+    <EditText
         android:id="@+id/lado1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Introduce el lado 1"
         android:inputType="number"
         android:textSize="18sp"
-        android:background="@android:drawable/edit_text"
         android:padding="10dp"
         android:layout_marginBottom="16dp"/>
 
-    <!-- TextView para ingresar el segundo lado -->
-    <TextView
+    <!-- EditText para ingresar el segundo lado -->
+    <EditText
         android:id="@+id/lado2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Introduce el lado 2"
         android:inputType="number"
         android:textSize="18sp"
-        android:background="@android:drawable/edit_text"
         android:padding="10dp"
         android:layout_marginBottom="16dp"/>
 
-    <!-- TextView para ingresar el tercer lado -->
-    <TextView
+    <!-- EditText para ingresar el tercer lado -->
+    <EditText
         android:id="@+id/lado3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Introduce el lado 3"
         android:inputType="number"
         android:textSize="18sp"
-        android:background="@android:drawable/edit_text"
         android:padding="10dp"
         android:layout_marginBottom="24dp"/>
 
@@ -68,7 +65,6 @@
         android:text="El tipo de triángulo se mostrará aquí"
         android:textSize="18sp"
         android:padding="10dp"
-        android:background="@android:drawable/editbox_background_normal"
         android:layout_marginTop="24dp"/>
 
 </LinearLayout>
